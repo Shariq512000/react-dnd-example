@@ -12,14 +12,14 @@ function SideBar() {
 
 
     const [optionData , setOptionData] = useState([
-        {name: "Shariq1" , number: "03421" , size:"normal" },
-        {name: "Shariq2" , number: "03422" , size:"large" },
-        {name: "Shariq3" , number: "03423" , size:"normal" },
-        {name: "Shariq4" , number: "03424" , size:"normal" },
-        {name: "Shariq5" , number: "03425" , size:"large" },
-        {name: "Shariq6" , number: "03426" , size:"large" },
-        {name: "Shariq7" , number: "03427" , size:"normal" },
-        {name: "Shariq8" , number: "03428" , size:"large" },
+        {name: "Content1" , number: "03421" , size:"normal" },
+        {name: "Content2" , number: "03422" , size:"large" },
+        {name: "Content3" , number: "03423" , size:"normal" },
+        {name: "Content4" , number: "03424" , size:"normal" },
+        {name: "Content5" , number: "03425" , size:"large" },
+        {name: "Content6" , number: "03426" , size:"large" },
+        {name: "Content7" , number: "03427" , size:"normal" },
+        {name: "Content8" , number: "03428" , size:"large" },
     ])
 
     const movePlayerToTeam = (item) => {
