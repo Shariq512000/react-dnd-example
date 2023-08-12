@@ -1,0 +1,51 @@
+.main-screen{
+    .sortable{
+        // min-width: 50%;
+        min-height: 40vh;
+
+        .cont{
+            height: 80px;
+            background-color: red;
+            margin-top: 20px;
+        }
+    }
+    
+}
+
+
+.drag-item {
+    transition: all .3s cubic-bezier(0.23, 1, 0.32, 1);
+    
+    &.is-moving {
+         transform: scale(1.02);
+         background: rgba(rgb(255, 255, 255), 0.95);
+    }
+}
+
+.drag-header-more {
+    cursor: pointer;
+}
+
+/* Dragula CSS  */
+.gu-mirror {
+   position: fixed !important;
+   margin: 0 !important;
+   z-index: 9999 !important;
+   opacity: 0.8;
+   list-style-type: none;
+}
+
+.gu-hide {
+   display: none !important;
+}
+
+.gu-unselectable {
+ -webkit-user-select: none !important;
+ -moz-user-select: none !important;
+ -ms-user-select: none !important;
+ user-select: none !important;
+}
+
+.gu-transit {
+ opacity: 0.3;
+}
